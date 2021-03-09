@@ -22,7 +22,13 @@ Customers who aren’t making a purchase can be analyzed in detail and further a
 ## Findings
 
 1) As expected, Random Forest algorithm performed better than logistic regression with little hyperparameter tuning
-2) Time to do hyperparameter search with cross validation for Random Fores was relatively longer than the Logistic Regression model
+2) Time to do hyperparameter search with cross validation for Random Forest was relatively longer than the Logistic Regression model
 3) 
 
 ---
+
+## Next Steps
+
+1) Features that are found to be bad by permutation importance can be taken out from the model and retraining can be done to see if there will be an improvement
+2) More data can be collected for the minority class, if it makes sense in terms of cost/return
+3) Different prediction algorithms can be added for better performance comparison, ex. LightGBM
