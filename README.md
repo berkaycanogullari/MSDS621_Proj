@@ -21,7 +21,7 @@ Customers who aren’t making a purchase can be analyzed in detail and further a
 
 ## Findings
 
-1) As expected, Random Forest algorithm performed better than logistic regression with little hyperparameter tuning
+1) As expected, Random Forest algorithm performed better than logistic regression in terms of predictive power with little hyperparameter tuning
 2) Time to do hyperparameter search with cross validation for Random Forest was relatively longer than the Logistic Regression model
 3) 
 
