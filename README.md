@@ -25,9 +25,9 @@ Customers who aren’t making a purchase can be analyzed in detail and further a
 
 1) Random Forest algorithm performed better than logistic regression in terms of predictive power
 2) Time to do hyperparameter search with cross validation for Random Forest was relatively longer than the Logistic Regression model
-3) Based on balanced accuracy and recall, our model performs relatively well. 83.7% and 79.6% respectively
-4) By looking at precision score, we can see that our model is over-predicting a user causing a revenue and performing poorly in that sense. This might be a result of having an imbalanced dataset
-5) f1 score of 64.7% suggests that the model performs okay if we care equally about recall and precision
+3) Based on balanced accuracy and recall, our model performs relatively well. 84.2% and 79.6% respectively
+4) By looking at precision score(56.7%), we can see that our model is over-predicting a user causing a revenue and performing poorly in that sense. This might be a result of having an imbalanced dataset
+5) f1 score of 66.2% suggests that the model performs okay if we care equally about recall and precision
 6) **Overall**: Our model's performance depend on what we expect from it and the business goals. It doesn't perform great in every aspect, but it performs well in terms of accuracy and recall.
 
 ---
